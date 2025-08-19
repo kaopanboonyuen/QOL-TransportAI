@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="AI-Powered Image Recognition for Transportation Mobility Factors in Bangkok"/>
+  <title>AI-Powered Mobility Factor Extraction - Bangkok</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.7;
+      background-color: #f8f9fa;
+    }
+    .hero {
+      background: linear-gradient(to right, #0062E6, #33AEFF);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    .section-title {
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #0062E6;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .img-fluid {
+      margin: 1rem 0;
+      border-radius: 0.5rem;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    pre {
+      background: #212529;
+      color: #f8f9fa;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      overflow-x: auto;
+    }
+    code {
+      color: #f8f9fa;
+    }
+    footer {
+      margin-top: 4rem;
+      padding: 2rem;
+      background: #212529;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <h1>🚦 AI-Powered Image Recognition for Transportation Mobility Factors</h1>
+    <p class="lead">A Quality of Life Perspective for Bangkok City</p>
+    <a href="LICENSE" class="badge bg-primary text-decoration-none">MIT License</a>
+    <div class="mt-3">
+      <strong>Author:</strong> Teerapong Panboonyuen (Kao Panboonyuen)<br/>
+      <a href="https://github.com/kaopanboonyuen/QOL-TransportAI" class="text-white">GitHub Code</a> |
+      <a href="https://kaopanboonyuen.github.io/QOL-TransportAI/" class="text-white">Project Page</a> |
+      <a href="https://ieeexplore.ieee.org/document/9018796" class="text-white">IEEE Publication</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 class="section-title">🎖️ Achievements</h2>
+    <ul>
+      <li><strong>🏆 2019 Best Young Researcher Paper Award</strong><br/>
+        <em>First International Conference on Smart Technology & Urban Development (STUD)</em></li>
+    </ul>
+
+    <h2 class="section-title">📄 Abstract</h2>
+    <p>
+      Urban development hinges on improving the Quality of Life (QOL) for city inhabitants. Traditionally, QOL assessments rely heavily on questionnaire surveys, which, while informative, can be costly and time-consuming.
+      Leveraging the rapid advancements in Artificial Intelligence, this work introduces an innovative approach to automatically extract mobility indicators—key components of QOL evaluations—using <strong>Semantic Segmentation</strong> and <strong>Object Recognition</strong> techniques.
+      Our method not only enhances the accuracy of transportation mobility assessments but also significantly reduces the data collection costs associated with QOL evaluations.
+    </p>
+
+    <h2 class="section-title">🌟 Highlights</h2>
+    <ul>
+      <li><strong>AI-Driven Mobility Indicator Extraction</strong>: Uses cutting-edge image recognition techniques.</li>
+      <li><strong>Efficient Data Gathering</strong>: Scalable and cost-effective QOL evaluation.</li>
+      <li><strong>Award-Winning Research</strong>: Best Young Researcher Paper at STUD 2019.</li>
+    </ul>
+
+    <h2 class="section-title">🖼️ Image Reference</h2>
+    <p>Source: <a href="https://www.bangkokgarden.com/10-things-you-need-to-know-before-moving-to-bangkok/">Bangkok Garden</a></p>
+    <img src="img/bkk-garden-001.jpg" class="img-fluid" alt="Bangkok Garden 1">
+    <img src="img/bkk-garden-002.jpg" class="img-fluid" alt="Bangkok Garden 2">
+
+    <h2 class="section-title">🚀 Getting Started</h2>
+    <h4>📥 Installation</h4>
+    <pre><code>git clone https://github.com/kaopanboonyuen/QOL-TransportAI.git
+cd QOL-TransportAI
+pip install -r requirements.txt</code></pre>
+
+    <h4>⚙️ Configuration</h4>
+    <p>Edit <code>config.yaml</code> to suit your dataset.</p>
+
+    <h4>📊 Usage</h4>
+    <ol>
+      <li><strong>Preprocessing</strong>:
+        <pre><code>python preprocess.py --data_path /path/to/data --output_path /path/to/output</code></pre></li>
+      <li><strong>Training</strong>:
+        <pre><code>python train.py --config config.yaml</code></pre></li>
+      <li><strong>Evaluation</strong>:
+        <pre><code>python evaluate.py --model_path /path/to/model --test_data /path/to/test_data</code></pre></li>
+      <li><strong>Inference</strong>:
+        <pre><code>python inference.py --image_path /path/to/image.png --output_path /path/to/output.png</code></pre></li>
+    </ol>
+
+    <h2 class="section-title">🗂️ Project Structure</h2>
+    <pre><code>TransportationMobilityFactorExtraction/
+├── data/               # Datasets and preprocessing scripts
+├── models/             # Model architectures and training scripts
+├── config.yaml         # Configuration file
+├── train.py            # Training script
+├── evaluate.py         # Evaluation script
+├── inference.py        # Inference script
+└── README.md           # Project documentation</code></pre>
+
+    <h2 class="section-title">📚 Publication</h2>
+    <p>Read the full paper in IEEE:</p>
+    <a href="https://ieeexplore.ieee.org/document/9018796" class="btn btn-outline-primary">IEEE Xplore Publication</a>
+
+    <h2 class="section-title">📌 Citation</h2>
+    <pre><code>@inproceedings{kijsirikul2019transportation,
+  title={Transportation mobility factor extraction using image recognition techniques},
+  author={Kijsirikul, Boonserm and Panboonyuen, Teerapong and Iwahori, Yuji and Hayashi, Yoshitsugu and Vateekul, Peerapon and Achariyaviriya, Witsarut},
+  booktitle={2019 First International Conference on Smart Technology \& Urban Development (STUD)},
+  pages={1--7},
+  year={2019},
+  organization={IEEE}
+}</code></pre>
+
+    <h2 class="section-title">🛡 License</h2>
+    <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
+
+    <h2 class="section-title">👏 Acknowledgments</h2>
+    <p>This project was made possible by the contributions of our dedicated team and the support of the research community. Special thanks to the STUD 2019 reviewers for their feedback.</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Teerapong Panboonyuen. All rights reserved.
+  </footer>
+
+</body>
+</html>
