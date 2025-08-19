@@ -3,8 +3,8 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 **Author**: Teerapong Panboonyuen (Kao Panboonyuen)  
-**Code**: [Transportation Mobility Factor Extraction (Code)](https://github.com/kaopanboonyuen/quality-of-life-ai-transportation)  
-**Project**: [Transportation Mobility Factor Extraction (Project)](https://kaopanboonyuen.github.io/quality-of-life-ai-transportation/)  
+**Code**: [Transportation Mobility Factor Extraction (Code)](https://github.com/kaopanboonyuen/QOL-TransportAI)  
+**Project**: [Transportation Mobility Factor Extraction (Project)](https://kaopanboonyuen.github.io/QOL-TransportAI/)  
 **Publication**: [Transportation Mobility Factor Extraction Using Image Recognition Techniques](https://ieeexplore.ieee.org/document/9018796)
 
 ## 🎖️ Achievements
@@ -38,8 +38,8 @@ Image Reference: [bangkokgarden](https://www.bangkokgarden.com/10-things-you-nee
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/kaopanboonyuen/quality-of-life-ai-transportation.git
-cd quality-of-life-ai-transportation
+git clone https://github.com/kaopanboonyuen/QOL-TransportAI.git
+cd QOL-TransportAI
 pip install -r requirements.txt
 ```
 
